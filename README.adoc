@@ -5,3 +5,5 @@ image:https://travis-ci.org/oliviercailloux/jsonb-sample.svg?branch=master["Buil
 
 A simple sample (huh) about the Java JSON-B technology. See https://github.com/oliviercailloux/jsonb-sample/blob/master/src/test/java/io/github/oliviercailloux/jsonb_sample/TestJsonSerialization.java[TestJsonSerialization.java].
 
+See also: https://github.com/oliviercailloux/java-course/blob/master/JSON-B.adoc[JSON-B] in my https://github.com/oliviercailloux/java-course[java-course].
+
