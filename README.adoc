@@ -1,0 +1,7 @@
+= jsonb-sample
+:sectanchors:
+
+image:https://travis-ci.org/oliviercailloux/jsonb-sample.svg?branch=master["Build Status", link="https://travis-ci.org/oliviercailloux/jsonb-sample"]
+
+A simple sample (huh) about the Java JSON-B technology.
+
