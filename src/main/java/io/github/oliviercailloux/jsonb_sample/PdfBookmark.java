@@ -2,12 +2,10 @@ package io.github.oliviercailloux.jsonb_sample;
 
 import static com.google.common.base.Preconditions.checkArgument;
 
-import java.util.Objects;
-
-import javax.json.bind.annotation.JsonbPropertyOrder;
-
 import com.google.common.base.MoreObjects;
 import com.google.common.base.Strings;
+import jakarta.json.bind.annotation.JsonbPropertyOrder;
+import java.util.Objects;
 
 /**
  * Immutable.
@@ -23,7 +21,7 @@ public class PdfBookmark {
 	private int physicalPageNumber;
 
 	/**
-	 * Not <code>null</code>.
+	 * Not {@code null}.
 	 */
 	private String title;
 

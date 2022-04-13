@@ -1,12 +1,11 @@
 package io.github.oliviercailloux.jsonb_sample;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import javax.json.bind.Jsonb;
-import javax.json.bind.JsonbBuilder;
-import javax.json.bind.JsonbConfig;
-
-import org.junit.Test;
+import jakarta.json.bind.Jsonb;
+import jakarta.json.bind.JsonbBuilder;
+import jakarta.json.bind.JsonbConfig;
+import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -31,7 +30,7 @@ public class TestJsonSerialization {
 		try (Jsonb jsonb = JsonbBuilder.create(new JsonbConfig().withFormatting(true))) {
 			final String json = jsonb.toJson(bookmark);
 			LOGGER.info("Serialized pretty json: {}.", json);
-			assertEquals("\n{\n    \"title\": \"Bookmark title\",\n    \"physicalPageNumber\": 12\n}", json);
+			assertEquals("{\n    \"title\": \"Bookmark title\",\n    \"physicalPageNumber\": 12\n}", json);
 		}
 	}
 }
